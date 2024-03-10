@@ -6,4 +6,15 @@ MRI 데이터는 각 스캐너에 따라 얻어지는 데이터의 형식(format
 
 ---
 
+### Python으로 nifti파일 다뤄보기(.ni / .nii.gz)
 
+~~~python3
+# Let's load some other packages we need
+import os
+import numpy as np
+import matplotlib.pyplot as plt
+%matplotlib inline
+import nibabel as nib # common way of importing nibabel
+~~~
+
+Nibabel : Nifti 파일을 읽고, 업로드하는 데에 특화된 패키지이며, nifti파일을 numpy 배열로 바꾸는 데도 사용할 수 있다.(Nifti는 3-demensional image이다.)
