@@ -1,0 +1,8 @@
+### Installing nipype
+
+MacOS 사용자 기준, 가장 쉬운 설치 방법은 pip(Python Interface Package)를 사용해서 nipype를 설치하는 것이다.
+
+~~~unix
+pip3 install nipype
+~~~
+
